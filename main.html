@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <title>Modal Example</title>
+  <link rel="stylesheet" href="styles.css"> 
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <input type="checkbox" id="modal-toggle">
+  <label for="modal-toggle">Open Modal</label>
+
+  <div class="modal">
+    <div class="modal-content">
+      <label for="modal-toggle" class="close">&times;</label>
+      <div class="modal-header">
+        <h2>Modal Header</h2>
+      </div>
+      <div class="modal-body">
+        <p>This is the modal body content.</p>
+      </div>
+    </div>
+  </div>
 
 </body>
-
 </html>
